@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{EAD0B467-6487-449D-A56B-C3375C969A59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "Behavioral\ChainOfResponsibility\ChainOfResponsibility.csproj", "{AF8F921B-0793-444A-8A02-5ABAF8159491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility.Tests", "Behavioral\ChainOfResponsibility.Tests\ChainOfResponsibility.Tests.csproj", "{C018405D-E6AE-4DA7-AC37-4394997D4168}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF8F921B-0793-444A-8A02-5ABAF8159491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8F921B-0793-444A-8A02-5ABAF8159491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8F921B-0793-444A-8A02-5ABAF8159491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8F921B-0793-444A-8A02-5ABAF8159491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C018405D-E6AE-4DA7-AC37-4394997D4168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C018405D-E6AE-4DA7-AC37-4394997D4168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C018405D-E6AE-4DA7-AC37-4394997D4168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C018405D-E6AE-4DA7-AC37-4394997D4168}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF8F921B-0793-444A-8A02-5ABAF8159491} = {EAD0B467-6487-449D-A56B-C3375C969A59}
+		{C018405D-E6AE-4DA7-AC37-4394997D4168} = {EAD0B467-6487-449D-A56B-C3375C969A59}
+	EndGlobalSection
+EndGlobal
